@@ -1,0 +1,37 @@
+{
+  "name": "santander-cortana-api",
+  "version": "0.0.1",
+  "description": "Santander Cortana API",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC",  
+  "repository": {
+    "type": "git",
+    "url": "https://santandercortanaapi@santandercortanaapi-dev.scm.azurewebsites.net:443/santandercortanaapi.git"
+  },
+  "dependencies": {
+    "@types/mongoose": "^4.7.2",
+    "@types/node": "^8.0.17",
+    "@types/node-uuid": "^0.0.28",
+    "@types/restify": "^2.0.36",
+    "core-js": "^2.4.1",
+    "gulp": "^3.9.1",
+    "gulp-typescript": "^3.2.1",
+    "mongod": "^2.0.0",
+    "mongodb": "^2.2.30",
+    "mongoose": "^4.7.5",
+    "restify": "^5.0.1",
+    "systemjs": "^0.20.17"
+  },
+  "devDependencies": {
+    "http-server": "^0.10.0",
+    "tslint": "^4.2.0",
+    "tslint-eslint-rules": "^3.2.3",
+    "typescript": "^2.4.2"
+  },
+  "scripts": {
+    "lint": "tslint --project .",
+    "build": "node_modules/.bin/tsc",    
+    "start": "npm run build && node ./server.js"
+  }
+}

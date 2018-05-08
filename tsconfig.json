@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "target": "es2015",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "removeComments": true,
+    "noImplicitReturns": true,
+    "noImplicitAny": true,
+    "preserveConstEnums": true
+  },
+  "outDir": "./app/",
+  "include": [
+    "./src/**/*.ts"
+  ],
+  
+  // "filesGlob": [
+  //   "/src"
+  // ],
+  "exclude": [
+    "node_modules"
+  ]
+}

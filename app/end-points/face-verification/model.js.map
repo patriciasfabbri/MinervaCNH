@@ -1,0 +1,1 @@
+{"version":3,"sources":["end-points/face-verification/model.ts"],"names":[],"mappings":";;AAEA;IAQC;QACC,IAAI,CAAC,UAAU,GAAG,EAAE,CAAC;QACrB,IAAI,CAAC,cAAc,GAAG,EAAE,MAAM,EAAE,KAAK,EAAE,CAAC;QACxC,IAAI,CAAC,UAAU,GAAG,EAAE,UAAU,EAAE,CAAC,CAAC,EAAE,WAAW,EAAE,KAAK,EAAE,CAAC;IAC1D,CAAC;CACD;AAbD,sDAaC","file":"model.js","sourceRoot":"../.."}

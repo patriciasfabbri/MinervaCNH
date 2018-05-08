@@ -1,0 +1,35 @@
+{
+  "name": "santander-cortana-api",
+  "version": "0.0.1",
+  "description": "Santander Cortana API",
+  "main": "./app/server.js",
+  "dependencies": {
+    "@types/mongodb": "^2.2.9",
+    "@types/node": "^8.0.19",
+    "@types/node-uuid": "^0.0.28",
+    "@types/restify": "^2.0.36",
+    "fs": "0.0.1-security",
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.3.2",
+    "gulp-sourcemaps": "^2.6.0",
+    "gulp-typescript": "^3.2.1",
+    "jimp": "^0.2.28",
+    "mongodb": "^2.2.30",
+    "node": "^10.0.0",
+    "request": "^2.81.0",
+    "restify": "^5.0.1",
+    "run-sequence": "^2.1.0",
+    "typescript": "^2.4.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "prestart": "gulp build",
+    "start": "node ./app/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://santandercortanaapi@santandercortanaapi-dev.scm.azurewebsites.net:443/santandercortanaapi.git"
+  },
+  "author": "",
+  "license": "ISC"
+}
